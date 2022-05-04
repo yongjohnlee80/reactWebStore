@@ -5,11 +5,8 @@ import categories from "./categories.json";
 import Navigation from "./components/Navigation/navigation.compoenent";
 import Authentication from "./components/authentication/authentication.component";
 import Home from "./routes/home/home.component";
+import { Shop } from "./routes/shop/shop.component";
 
-
-const Shop = () => {
-  return <h1>Shop Page</h1>
-}
 
 const App = () => {
     return (
